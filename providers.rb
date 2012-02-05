@@ -1,3 +1,5 @@
+require './lib/favreduce.rb'
+
 # Some experimental providers
 
 module LogProvider

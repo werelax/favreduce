@@ -1,5 +1,6 @@
-%w{log_models mapreduce collection providers}.each {|lib| require_relative lib }
+require './lib/favreduce.rb'
 require 'benchmark'
+%w{log_models providers}.each {|lib| require_relative lib }
 
 # Map task 1: count the times each url has been visited
 
